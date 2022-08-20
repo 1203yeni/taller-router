@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Inicio from '../views/InicioView.vue'
+import Administrador from '../views/Adm/dashboardAdm.vue'
+import Create from '../views/Adm/Productos/Create.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +13,23 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  
+  {
+   path:'/Inicio',
+   name:'Inicio',
+   component: Inicio
+  },
+  {
+    path:'/Administrador',
+   name:'Administrador',
+   component: Administrador
+
+  },
+  {
+    path:'/Create',
+    name:'Create',
+    component: Create
+   },
   {
     path: '/about',
     name: 'about',

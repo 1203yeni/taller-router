@@ -3,6 +3,13 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+      <router-link to="/Inicio">Inicio</router-link>
+      <router-link to="/Administrador">Administrador</router-link>
+      <router-link to="/Create">Create</router-link>|
+      <router-link to="update">update</router-link>|
+      <router-link to="Index">Index</router-link>|
+      <router-link to="dasboardusuario">dasboardusuario</router-link>|
+       <router-link to="Siderbar">Siderbar</router-link>
     </nav>
     <router-view/>
   </div>
